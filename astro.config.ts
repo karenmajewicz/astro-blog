@@ -6,6 +6,11 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
+export default defineConfig({
+  site: 'https://karenmajewicz.github.io',
+  base: 'astro-blog',
+})
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
